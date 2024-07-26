@@ -52,8 +52,22 @@
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
 }
-.img{
-	display: flex;
-	max-height: fit-content;
-	max-width: fit-content;
+.img {
+  display: flex;
+  max-height: fit-content;
+  max-width: fit-content;
+}
+#logo-image {
+  max-width: 250px;
+  max-height: 250px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+@media (min-width: 576px) {
+  .form {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
 }
