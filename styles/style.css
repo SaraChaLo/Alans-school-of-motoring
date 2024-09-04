@@ -23,12 +23,7 @@ padding: 80px;
   line-height: 25px;
   padding: 10px 10px;
 }
-.nav-link{
-  border-radius: 4px;
-  font-size: 15px;
-  line-height: 25px;
-  padding: 10px 10px;
-}
+
 a {
   text-decoration: none;
   color: var(--secondary-color);
